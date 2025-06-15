@@ -1,6 +1,7 @@
 package com.app.booking.entities;
 
-import java.util.List;
+import java.sql.Time;
+import java.util.*;
 
 public class Train {
 
@@ -9,6 +10,12 @@ public class Train {
     private String trainNo;
 
     private List<List<Integer>> seats;
+
+    private Map<String, Time> stationTimes;
+
+    private List<String> stations;
+
+
 
     
 }
